@@ -446,7 +446,7 @@ def extract_data_from_pdf(label, schema_dict, pdf_path):
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/enter-take-home-assignment.git
+git clone https://github.com/PietroGolfeto/enter-take-home-assignment.git
 cd enter-take-home-assignment
 ```
 
@@ -1159,7 +1159,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/enter-take-home-assignment/issues)
+- **Issues:** [GitHub Issues](https://github.com/PietroGolfeto/enter-take-home-assignment/issues)
 - **Documentation:** This README + inline code comments
 - **Tests:** See `tests/` for usage examples
 
