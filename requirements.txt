@@ -1,0 +1,15 @@
+# PDF Data Extraction - Python Dependencies
+
+# Core Dependencies
+pymupdf==1.24.14        # PDF text extraction (formerly PyMuPDF/fitz)
+openai==1.58.1          # OpenAI GPT API client
+python-dotenv==1.0.1    # Environment variable management
+
+# Testing Dependencies
+pytest==8.4.2           # Testing framework
+pytest-cov==6.0.0       # Code coverage plugin for pytest
+
+# Development Dependencies (optional but recommended)
+black==24.10.0          # Code formatter
+flake8==7.1.1           # Linting tool
+mypy==1.13.0            # Static type checker
