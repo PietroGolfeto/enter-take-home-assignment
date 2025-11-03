@@ -1180,4 +1180,4 @@ Potential improvements for future versions:
 
 **Made for efficient, cost-optimized PDF data extraction**
 
-**Last Updated:** November 2025
+**Last Updated:** November 3rd, 2025
