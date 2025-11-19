@@ -6,7 +6,7 @@ using a hybrid approach combining heuristics-based extraction and LLM fallback.
 """
 
 __version__ = "2.0.0"
-__author__ = "Enter AI Take-Home Assignment"
+__author__ = "Pietro Grazzioli Golfeto"
 
 # Package-level imports for convenience
 from .orchestration import extract_data_from_pdf
