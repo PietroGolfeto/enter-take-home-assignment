@@ -32,6 +32,7 @@ jobs:
     - name: Run tests
       env:
         OPENAI_API_KEY: "sk-dummy-key-for-tests"
+        PYTHONPATH: .
       # Added explicitly: check for src/ existence to avoid errors if empty
       run: |
         pytest tests/ -v --cov=src
