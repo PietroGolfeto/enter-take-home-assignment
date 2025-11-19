@@ -9,7 +9,7 @@ import functools
 import hashlib
 import json
 import sys
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 
 from src.config import PDF_CHUNK_SIZE
 from src.utils.error_handler import CacheError
@@ -109,7 +109,7 @@ def create_cache_key(pdf_path: str, schema_dict: Dict[str, str]) -> str:
     return f"{pdf_hash}:{schema_hash}"
 
 
-def get_cached_result(cache_key: str) -> Dict[str, Any] | None:
+def get_cached_result(cache_key: str) -> Optional[Dict[str, Any]]:
     """
     Retrieve a cached extraction result.
     
